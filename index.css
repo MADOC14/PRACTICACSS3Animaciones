@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    border: none;
+    background-color: gray;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    color: rgb(224, 223, 223);
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    border-bottom:3px solid rgb(57, 56, 56);
+    background-color: rgb(134, 166, 160);
+    color: rgb(3, 101, 74);
+    animation: animacion 0.4s ease-in;
+}
+
+@keyframes animacion {
+    0% {
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
